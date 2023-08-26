@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "386872145975",
+    "project_id": "jobit-6fabd",
+    "storage_bucket": "jobit-6fabd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386872145975:android:ab7d12c98de6a15cffe7b2",
+        "android_client_info": {
+          "package_name": "com.jobit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386872145975-mdb6c1ubjdu2iecdgsehmm644047ibap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jobit",
+            "certificate_hash": "50df9e0e37083a7fa97682022b2c9190f5e9e5dc"
+          }
+        },
+        {
+          "client_id": "386872145975-shanpb26qqro8griend805d6ojnf8t20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjGrQLobNqQolECdImlXaeTyO-RU9YA94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386872145975-shanpb26qqro8griend805d6ojnf8t20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
