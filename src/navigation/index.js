@@ -4,6 +4,8 @@ import HomeScreen from '../screens/HomeScreen';
 import DetailsScreen from '../screens/DetailsScreen';
 import Login from '../screens/Login';
 import Register from '../screens/Register';
+import sInfor from 'react-native-sensitive-info';
+import {getItem} from '../storage/SecureInfo';
 
 const stack = createNativeStackNavigator();
 const UserStack = () => {
@@ -25,6 +27,8 @@ const AuthStack = () => {
 };
 
 const AppNavigation = () => {
+  const isLoggedIn = getItem('AccessToken');
+  console.log('isLoggedIn', JSON.stringify(isLoggedIn));
   return (
     <NavigationContainer>
       <stack.Navigator screenOptions={{headerShown: false}}>
