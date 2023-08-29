@@ -33,6 +33,7 @@ const Login = () => {
     if (data?.token) {
       saveItem('AccessToken', data?.token);
       saveItem('profileImage', data?.image);
+      saveItem('profileName', data?.firstName + ' ' + data?.lastName);
       navigation.navigate('user');
     }
   }, [data]);
